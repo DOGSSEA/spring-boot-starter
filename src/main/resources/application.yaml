@@ -1,0 +1,5 @@
+#指定运行的配置文件
+#测试环境dev 线上环境pro
+spring:
+   profiles:
+      active: dev
