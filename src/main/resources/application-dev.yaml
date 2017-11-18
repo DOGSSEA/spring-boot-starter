@@ -44,3 +44,7 @@ spring:
         #密码默认为空
         password:
 
+logging:
+  file:  ./log.txt
+  level:
+     com.example.demo: debug
