@@ -1,0 +1,9 @@
+create database test;
+create table business(
+  businessType INT NOT NULL AUTO_INCREMENT,
+  businessName VARCHAR(40) NOT NULL,
+  primary key(businessType)
+);
+create table user(
+
+);
