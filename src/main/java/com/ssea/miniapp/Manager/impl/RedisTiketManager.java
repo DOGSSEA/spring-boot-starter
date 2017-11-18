@@ -6,11 +6,13 @@ import com.ssea.miniapp.Manager.TiketManager;
 import com.ssea.miniapp.model.Ticket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Repository;
 import org.springframework.util.StringUtils;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+@Repository
 public class RedisTiketManager implements TiketManager {
     @Autowired
     private RedisTemplate<String,String> redisTemplate;
